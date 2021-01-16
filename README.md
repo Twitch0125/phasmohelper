@@ -1,4 +1,6 @@
 # phasmohelper
+A tool to assist you in Ghost Hunting.
+**Pull Requests Welcome**
 
 ## Build Setup
 
