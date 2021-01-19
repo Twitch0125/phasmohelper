@@ -1,6 +1,7 @@
 ---
 title: Poltergeist
 ---
+# Poltergeist
 
 One of the most famous Ghosts, a Poltergeist, also known as a noisy ghost can manipulate objects around it to spread fear into its victims.
 

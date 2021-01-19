@@ -1,6 +1,7 @@
 ---
 title: Jinn
 ---
+# Jinn
 
 A Jinn is a territorial ghost that wil attack when threateaned. It has also been known to be able to travel at significant speed.
 

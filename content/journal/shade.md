@@ -1,6 +1,7 @@
 ---
 title: Shade
 ---
+# Shade
 
 A Shade is known to be a Shy Ghost. There is evidence that a Shade will stop all paranormal activity if there are multiple people nearby.
 

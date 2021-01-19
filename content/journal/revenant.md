@@ -1,6 +1,7 @@
 ---
 title: Revenant
 ---
+# Revenant
 
 A Revenant is a slow but violent Ghost that will attack indiscriminately. It has been rumoured to travel at a significantly high speed while hunting.
 

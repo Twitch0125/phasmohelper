@@ -1,6 +1,7 @@
 ---
 title: Mare
 ---
+# Mare
 
 A Mare is the source of all nightmares, making it most powerful in the dark.
 

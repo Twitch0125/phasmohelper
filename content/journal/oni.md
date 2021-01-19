@@ -1,6 +1,7 @@
 ---
 title: Oni
 ---
+# Oni
 
 Onis are a cousin to the Demon and possess extreme strength. There have been rumours that they become more active around their prey.
 
