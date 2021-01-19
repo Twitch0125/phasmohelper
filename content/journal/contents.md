@@ -9,8 +9,8 @@ PUT IN LINKS HERE
 
 > Test quote
 
-- Chapter 1. Introducing Ghosts
-- Chapter 2. Hunting Ghosts
-- Chapter 3. Sanity
-- Chapter 4. Ghost Types
-- Chapter 5. Gathering Evidence
+- [Chapter 1. Introducing Ghosts](/journal/introducing-ghosts)
+- [Chapter 2. Hunting Ghosts](/journal)
+- [Chapter 3. Sanity](/journal/sanity)
+- [Chapter 4. Ghost Types](/journal/ghost-types)
+- [Chapter 5. Gathering Evidence](/journal)

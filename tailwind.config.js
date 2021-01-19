@@ -13,7 +13,7 @@ module.exports = {
       'nuxt.config.ts',
     ],
   },
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     colors: {
       gray: colors.trueGray,
@@ -23,7 +23,31 @@ module.exports = {
       white: colors.white,
       black: colors.black,
     },
-    extend: {},
+    extend: {
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.gray.100'),
+            h1: {
+              color: theme('colors.green.400')
+            },
+            h2: {
+              color: theme('colors.green.400')
+            },
+            a: {
+              color: theme('colors.green.400')
+            },
+            'hover:a': {
+              color: theme('colors.green.300')
+            },
+            blockquote:{
+              color: theme('colors.green.200'),
+              background: theme('colors.gray.800')
+            }
+          }
+        }
+      }),
+    },
   },
   variants: {
     extend: {},
