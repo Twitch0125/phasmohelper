@@ -1,5 +1,6 @@
 ---
 title: Oni
+page: 7
 ---
 # Oni
 

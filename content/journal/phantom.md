@@ -1,5 +1,6 @@
 ---
 title: Phantom
+page: 8
 ---
 # Phantom
 A Phantom is a Ghost that can possess the living , most commonly summoned by a Ouija Board. It also induces fear into those around it.

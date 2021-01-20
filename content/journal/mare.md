@@ -1,5 +1,6 @@
 ---
 title: Mare
+page: 6
 ---
 # Mare
 
