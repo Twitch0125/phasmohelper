@@ -1,5 +1,5 @@
 <template>
-  <article class="px-12 py-4 bg-gray-800 rounded">
+  <article class="sm:px-12 py-4 bg-gray-800 rounded">
     <div class="flex">
       <nuxt-link v-if="previousPage.slug" :to="`/journal/${previousPage.slug}`">
         <svg
@@ -18,7 +18,10 @@
         </svg>
       </nuxt-link>
       <div class="flex-grow">
-        <nuxt-content class="prose prose-lg mx-4" :document="page" />
+        <nuxt-content
+          class="hidden sm:block prose prose-lg mx-4"
+          :document="page"
+        />
       </div>
       <nuxt-link v-if="nextPage.slug" :to="`/journal/${nextPage.slug}`">
         <svg
@@ -37,6 +40,7 @@
         </svg>
       </nuxt-link>
     </div>
+    <nuxt-content class="sm:hidden prose prose-lg mx-4" :document="page" />
   </article>
 </template>
 

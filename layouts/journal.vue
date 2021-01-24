@@ -2,9 +2,9 @@
   <div class="bg-gray-900 text-white min-h-screen">
     <div class="container mx-auto">
       <base-header />
-      <div class="flex">
-        <base-sidebar class="w-1/4" />
-        <Nuxt class="flex-grow mx-16"/>
+      <div class="sm:flex">
+        <base-sidebar class="sm:w-1/4" />
+        <Nuxt class="flex-grow sm:mx-16" />
       </div>
       <base-footer />
     </div>
