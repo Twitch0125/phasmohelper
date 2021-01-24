@@ -1,6 +1,6 @@
 # Phasmohelper
 A tool to assist you in Ghost Hunting.
-**Pull Requests Welcome**
+**Pull Requests Welcome** (there are typos everywhere...)
 
 ## Why?
 The idea for this is to provide releveant and helpful information in a user friendly and accessible manner regarding the gameplay of Phasmophobia
