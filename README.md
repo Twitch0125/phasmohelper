@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Twitch0125/phasmohelper)
+
 # Phasmohelper
 A tool to assist you in Ghost Hunting.
 **Pull Requests Welcome** (there are typos everywhere...)
