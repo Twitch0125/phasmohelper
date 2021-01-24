@@ -1,13 +1,13 @@
 <template>
   <aside class="sm:w-96 sm:px-4 rounded bg-gray-800 sm:bg-gray-900">
     <div
-      class="text-2xl font-bold p-2 border-b-2 border-gray-700 rounded items-center flex sm:bg-gray-800 sm:mb-1"
+      class="text-2xl font-bold p-2 border-b-2 border-gray-700 sm:rounded items-center flex sm:bg-gray-800 sm:mb-1"
     >
       <span> Contents </span>
       <div class="flex-grow"></div>
       <svg
         @click="showMenu = !showMenu"
-        class="w-10 bg-gray-800 rounded p-1 sm:hidden"
+        class="w-10 bg-gray-800 p-1 sm:hidden"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"

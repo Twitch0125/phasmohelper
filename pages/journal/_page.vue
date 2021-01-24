@@ -1,5 +1,5 @@
 <template>
-  <article class="sm:px-12 py-4 bg-gray-800 rounded">
+  <article class="sm:px-12 py-4 bg-gray-800 sm:rounded">
     <div class="flex items-center sm:items-start">
       <!-- <nuxt-link v-if="previousPage.slug" :to="`/journal/${previousPage.slug}`"> -->
       <div>
