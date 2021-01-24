@@ -1,8 +1,6 @@
 <template>
-  <article
-    class="prose prose-lg px-12 py-4 bg-gray-800 rounded max-w-none mx-auto"
-  >
-    <div class="flex py-8">
+  <article class="px-12 py-4 bg-gray-800 rounded">
+    <div class="flex">
       <nuxt-link v-if="previousPage.slug" :to="`/journal/${previousPage.slug}`">
         <svg
           class="w-10 cursor-pointer text-white"
@@ -19,7 +17,9 @@
           />
         </svg>
       </nuxt-link>
-      <div class="flex-grow"></div>
+      <div class="flex-grow">
+        <nuxt-content class="prose prose-lg mx-4" :document="page" />
+      </div>
       <nuxt-link v-if="nextPage.slug" :to="`/journal/${nextPage.slug}`">
         <svg
           class="w-10 cursor-pointer text-white"
@@ -37,13 +37,12 @@
         </svg>
       </nuxt-link>
     </div>
-
-    <nuxt-content :document="page" />
   </article>
 </template>
 
 <script>
 export default {
+  layout: 'journal',
   async asyncData({ $content, params }) {
     const page = await $content(`journal/${params.page}`).fetch()
     let nextPage = await $content(`journal`)
@@ -64,4 +63,7 @@ export default {
 </script>
 
 <style>
+.nuxt-content-editor {
+  @apply bg-gray-900;
+}
 </style>
