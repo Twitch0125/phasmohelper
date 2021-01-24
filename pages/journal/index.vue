@@ -1,14 +1,14 @@
 <template>
   <article class="prose prose-lg p-4 bg-gray-800 rounded max-w-none mx-auto">
-    <nuxt-content :document="page" />
+    <h2>
+      Phasmophobia Journal
+    </h2>
+    <a href="/journal/introducing-ghosts">Begin...</a>
   </article>
 </template>
 
 <script>
 export default {
-  async asyncData({ $content }) {
-    const page = await $content('journal/contents').fetch()
-    return { page }
-  },
+  layout: 'journal',
 }
 </script>

@@ -1,6 +1,6 @@
 ---
 title: Yurei
-page: 14
+page: 13
 ---
 
 # Yurei

@@ -1,6 +1,6 @@
 ---
 title: Wraith
-page: 13
+page: 12
 ---
 
 # Wraith

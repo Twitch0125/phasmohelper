@@ -1,6 +1,6 @@
 ---
 title: A Hunters Sanity
-page: 15
+page: 14
 ---
 
 # A Hunters Sanity

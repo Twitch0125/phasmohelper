@@ -1,6 +1,6 @@
 ---
 title: Spirit
-page: 12
+page: 11
 ---
 
 # Spirit

@@ -1,6 +1,6 @@
 ---
 title: Jinn
-page: 5
+page: 3
 ---
 # Jinn
 

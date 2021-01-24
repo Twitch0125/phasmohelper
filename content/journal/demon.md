@@ -1,6 +1,6 @@
 ---
 title: Demon
-page: 4
+page: 2
 ---
 
 # Demon

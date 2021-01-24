@@ -1,6 +1,6 @@
 ---
 title: Introducing Ghosts
-page: 2
+page: 0
 ---
 
 # Introducing Ghosts

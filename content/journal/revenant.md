@@ -1,6 +1,6 @@
 ---
 title: Revenant
-page: 10
+page: 8
 ---
 # Revenant
 
