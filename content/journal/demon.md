@@ -5,7 +5,7 @@ page: 2
 
 # Demon
 
-A Demon is one of hte wrost Ghosts you can encounter. It has been known to attack without a reason.
+A Demon is one of the worst Ghosts you can encounter. It has been known to attack without a reason.
 
 ## Strengths
 
