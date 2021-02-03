@@ -1,5 +1,5 @@
 <template>
-  <aside class="sm:w-96 sm:px-4 rounded bg-gray-800 sm:bg-gray-900">
+  <aside class="sm:w-96 sm:pr-4 rounded bg-gray-800 sm:bg-gray-900">
     <div
       class="text-2xl font-bold p-2 border-b-2 border-gray-700 sm:rounded items-center flex sm:bg-gray-800 sm:mb-1"
     >

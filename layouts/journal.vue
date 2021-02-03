@@ -4,7 +4,7 @@
       <base-header />
       <div class="sm:flex">
         <base-sidebar class="sm:w-1/4" />
-        <Nuxt class="flex-grow sm:mx-16" />
+        <Nuxt class="flex-grow" />
       </div>
       <base-footer />
     </div>

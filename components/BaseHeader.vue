@@ -1,5 +1,5 @@
 <template>
-  <div class="flex px-4 bg-gray-900 sticky py-2">
+  <div class="flex px-4 bg-gray-800 border-b-2 rounded-b border-gray-700 sticky py-2 mb-2">
     <nuxt-link
       to="/"
       class="font-bold font-mono text-lg text-green-400 cursor-pointer"
