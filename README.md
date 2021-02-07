@@ -8,6 +8,11 @@ A tool to assist you in Ghost Hunting.
 The idea for this is to provide releveant and helpful information in a user friendly and accessible manner regarding the gameplay of Phasmophobia
 (Really I'm working on this because I hate Fandom wikis, especially on Mobile devices so hopefully this will be just as helpful but meach easier to use)
 
+## Journal Contribution
+You can easily contribute to the journal from your browser by using Gitpod. You can access the Gitpod dev environment here https://gitpod.io/#https://github.com/Twitch0125/phasmohelper
+
+The journal pages are located in `/content/journal`
+
 ## Build Setup
 
 ```bash
