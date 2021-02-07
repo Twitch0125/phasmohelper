@@ -4,7 +4,7 @@
       Phasmohelper is a tool to assist you in ghost hunting.
     </div>
     <section class="grid grid-cols-1 my-8">
-      <ListItem class="my-2" to="/journal" name="Journal">
+      <ListItem nuxt class="my-2" to="/journal" name="Journal">
         <template #icon>
           <svg
             class="w-6 h-6 mx-2 text-green-400"
@@ -22,7 +22,12 @@
           </svg>
         </template>
       </ListItem>
-      <ListItem class="my-2" to="/evidence" name="Evidence Checker">
+      <ListItem
+        nuxt
+        class="my-2"
+        to="/evidence"
+        name="Evidence Checker (coming soon)"
+      >
         <template #icon>
           <svg
             class="w-6 h-6 mx-2 text-green-400"
@@ -40,7 +45,12 @@
           </svg>
         </template>
       </ListItem>
-      <ListItem class="my-2" to="/timer" name="Timer">
+      <ListItem
+        nuxt
+        class="my-2"
+        to="/timer"
+        name="Timer (coming soon...maybe)"
+      >
         <template #icon>
           <svg
             class="w-6 h-6 mx-2 text-green-400"
