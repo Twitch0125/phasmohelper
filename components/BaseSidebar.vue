@@ -28,7 +28,7 @@
       <nuxt-link
         v-for="entry in journal"
         :key="entry.page"
-        class="text-lg w-full px-4 py-2 my-1 rounded block hover:bg-gray-800"
+        class="text-lg w-full px-4 py-2 my-1 rounded block hover:bg-gray-800 transition-all duration-150 ease-in-out"
         active-class="text-green-400 bg-gray-800 font-medium"
         :to="entry.path"
       >
