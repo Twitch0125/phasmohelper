@@ -26,7 +26,7 @@
         nuxt
         class="my-2"
         to="/evidence"
-        name="Evidence Checker (coming soon)"
+        name="Evidence Checker (coming soon...maybe)"
       >
         <template #icon>
           <svg
