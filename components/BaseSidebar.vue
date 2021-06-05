@@ -1,13 +1,13 @@
 <template>
-  <aside class="sm:w-96 sm:pr-4 rounded py-2 border-b-2 border-gray-700 mb-4 bg-gray-800 sm:bg-gray-900">
+  <aside class="py-2 mb-4 bg-gray-800 border-gray-700 rounded sm:w-96 sm:pr-4 sm:bg-gray-900">
     <div
-      class="text-2xl font-bold px-4 sm:py-2 sm:rounded items-center flex sm:bg-gray-800 sm:mb-1"
+      class="flex items-center px-4 text-2xl font-bold sm:py-2 sm:rounded sm:mb-1 sm:border-b sm:border-gray-700"
     >
       <span> Contents </span>
       <div class="flex-grow"></div>
       <svg
         @click="showMenu = !showMenu"
-        class="w-10 bg-gray-800 p-1 sm:hidden"
+        class="w-10 p-1 bg-gray-800 sm:hidden"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -22,14 +22,14 @@
       </svg>
     </div>
     <div
-      class="bg-gray-900 w-full sm:max-h-full sm:my-2 transition-all duration-300 ease-in-out overflow-hidden"
+      class="w-full overflow-hidden transition-all duration-300 ease-in-out bg-gray-900 sm:max-h-full sm:my-2"
       :class="{ 'max-h-screen': showMenu, 'max-h-0': !showMenu }"
     >
       <nuxt-link
         v-for="entry in journal"
         :key="entry.page"
-        class="text-lg w-full px-4 py-2 my-1 rounded block hover:bg-gray-800 transition-all duration-150 ease-in-out"
-        active-class="text-green-400 bg-gray-800 font-medium"
+        class="block w-full px-4 py-2 my-1 text-lg transition-all duration-150 ease-in-out rounded hover:bg-gray-800"
+        active-class="font-medium text-green-400 bg-gray-800"
         :to="entry.path"
       >
         {{ entry.title }}

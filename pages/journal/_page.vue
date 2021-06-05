@@ -1,12 +1,12 @@
 <template>
-  <article class="border-2 border-gray-700 sm:px-12 py-4 bg-gray-800 sm:rounded">
+  <article class="py-4 bg-gray-800 border border-gray-700 sm:px-12 sm:rounded">
     <div class="flex items-center sm:items-start">
       <!-- <nuxt-link v-if="previousPage.slug" :to="`/journal/${previousPage.slug}`"> -->
       <div>
         <svg
           v-if="previousPage.slug"
           @click="$router.push(`/journal/${previousPage.slug}`)"
-          class="w-10 cursor-pointer text-white"
+          class="w-10 text-white cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
           viewBox="0 0 24 24"
@@ -23,7 +23,7 @@
       <!-- </nuxt-link> -->
       <div class="flex-grow">
         <nuxt-content
-          class="hidden sm:block prose prose-lg mx-4"
+          class="hidden mx-4 prose prose-lg sm:block"
           :document="page"
         />
       </div>
@@ -31,7 +31,7 @@
       <svg
         v-if="nextPage.slug"
         @click="$router.push(`/journal/${nextPage.slug}`)"
-        class="w-10 cursor-pointer text-white"
+        class="w-10 text-white cursor-pointer"
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
@@ -46,7 +46,7 @@
       </svg>
       <!-- </nuxt-link> -->
     </div>
-    <nuxt-content class="sm:hidden prose prose-lg mx-4" :document="page" />
+    <nuxt-content class="mx-4 prose prose-lg sm:hidden" :document="page" />
   </article>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-900 text-white min-h-screen">
+  <div class="min-h-screen text-white bg-gray-900 border">
     <div class="container mx-auto">
       <base-header />
       <div class="sm:flex">

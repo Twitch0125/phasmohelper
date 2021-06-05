@@ -1,5 +1,7 @@
 <template>
-  <article class="prose prose-lg p-4 bg-gray-800 sm:rounded max-w-none mx-auto">
+  <article
+    class="py-4 mx-auto prose prose-lg bg-gray-800 border border-gray-700 sm:px-12 sm:rounded max-w-none"
+  >
     <h2>Phasmophobia Journal</h2>
     <a href="/journal/introducing-ghosts">Begin...</a>
   </article>
