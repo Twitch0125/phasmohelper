@@ -18,3 +18,5 @@ fields:
       format: markdown
   label: Body
   description: Write the page!
+pages:
+- "./content/content/journal/spooky.md"
