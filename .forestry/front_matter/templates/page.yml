@@ -1,4 +1,20 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: header
+  type: text
+  config:
+    required: false
+  label: Header
+  description: Displays at the top of the page. The title of the page
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Body
+  description: Write the page!
