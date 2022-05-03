@@ -1,4 +1,25 @@
 ---
 label: Material
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  description: fabric name
+  label: Name
+- name: images
+  type: image_gallery
+  config: {}
+  label: images
+  description: high quality images for viewing at large sizes
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 64
+  label: thumbnail
+  description: low quality image for quick previews
+- name: in_stock
+  type: boolean
+  label: In Stock
+  description: Whether you have this in stock or not
